@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Lanat</title>
+    <script src="https://kit.fontawesome.com/ef1571087b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            christian lanat
+        </div>
+        <nav>
+            <a href="#home"><i class="fa-solid fa-house"></i><span>home</span></a>
+            <a href="#about"><i class="fa-solid fa-address-card"></i><span>about</span></a>
+            <a href="#certificates"><i class="fa-solid fa-certificate"></i><span>certificates</span></a>
+            <a href="#contact"><i class="fa-solid fa-envelope"></i><span>contact</span></a>
+        </nav>
+        <div id="menu-icon" onclick="showMenu()"><i class="fa-solid fa-circle-chevron-down"></i></div>
+    </header>
+    <div id="menu">
+        <a href="#home" onclick="hideMenu()"><i class="fa-solid fa-house"></i></a>
+        <a href="#about" onclick="hideMenu()"><i class="fa-solid fa-address-card"></i></a>
+        <a href="#cetificates" onclick="hideMenu()"><i class="fa-solid fa-certificate"></i></a>
+        <a href="#contact" onclick="hideMenu()"><i class="fa-solid fa-envelope"></i></a>
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+    </div>
+    <section id="home">
+        <div id="intro-wrapper">
+            <img src="assets/myphoto.jpg" alt="">
+            <div id="message">
+                <h1>I'm Christian Lanat</h1>
+                <h5>CS Student and a DJ</h5>
+                <a href="#contact">contact me</a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1>about me</h1>
+        <div id="about-wrapper">
+            <div id="left">
+                <h3>Who am I?</h3>
+                <div class="details">
+                    I am Christian Lanat from Poblacion Centro, Ckarin Bohol.
+                    I am currently in my 3rd year of Computer Science at
+                    Bohol Island State University - Clarin Campus. Aside from
+                    being a student, I am also into sound technology.
+                </div>
+            </div>
+            <div id="middle">
+                <img src="assets/myphoto-about.jpg" alt="">
+            </div>
+            <div id="right">
+                <h3>What I do?</h3>
+                <div class="details">
+                    I am also a DJ. I play music for parties, fiesta, and other
+                    important events. I love music because it keeps my energy
+                    at a high level and it kills boredom. It also relieves my
+                    stress and calms my mind.
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="certificates">
+        <div class="container">
+            <div class="heading">
+                <h1>My Certificates</h1>
+                <h5>I acquired these web development certificates upon completing
+                    each courses in Sololearn.
+                </h5>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img class="gallery-image" src="assets/html.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img class="gallery-image" src="assets/css.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img class="gallery-image" src="assets/javascript.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img class="gallery-image" src="assets/responsive.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img class="gallery-image" src="assets/python.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img class="gallery-image" src="assets/web-fund.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div id="contact-wrapper">
+            <div id="contact-left">
+                <h3>contact me</h3>
+                <h1>Connect with me and let's work</h1>
+                <p>I will make your party more fun and full of energy!</p>
+                <div id="social">
+                    <a href="https://web.facebook.com/christian.lanat">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/christian.lanat/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="contact-right">
+                <div id="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="text">
+                        <h5>Home Adress</h5>
+                        <span>Poblacion Centro, Clarin, Bohol</span>
+                    </div>
+                </div>
+                <div id="number">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <div class="text">
+                        <h5>Call for query</h5>
+                        <span>09303094205</span>
+                    </div>
+                </div>
+                <div id="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="text">
+                        <h5>Mail me for help</h5>
+                        <span>christianlanat26@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
